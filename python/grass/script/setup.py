@@ -113,6 +113,7 @@ def set_gui_path():
 
 
 def get_install_path(path=None):
+    test = tmpfile.mktemp()
     """Get path to GRASS installation usable for setup of environmental variables.
 
     The function tries to determine path tp GRASS GIS installation so that the
