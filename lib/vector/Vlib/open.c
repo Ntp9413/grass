@@ -561,7 +561,7 @@ int Vect__open_old(struct Map_info *Map, const char *name, const char *mapset,
         unlink(file_path);
 
         Vect__get_element_path(file_path, Map, GV_CIDX_ELEMENT);
-        unlink(file_path); 
+        unlink(file_path);
 
         if (format == GV_FORMAT_OGR || format == GV_FORMAT_POSTGIS) {
             Vect__get_element_path(file_path, Map, GV_FIDX_ELEMENT);
