@@ -567,7 +567,6 @@ int Vect__open_old(struct Map_info *Map, const char *name, const char *mapset,
             Vect__get_element_path(file_path, Map, GV_FIDX_ELEMENT);
             unlink(file_path);
         }
-
     }
 
     return level;
