@@ -558,8 +558,7 @@ int Vect__open_old(struct Map_info *Map, const char *name, const char *mapset,
         unlink(file_path);
 
         Vect__get_element_path(file_path, Map, GV_SIDX_ELEMENT);
-        unlink(file_path); 
-
+        unlink(file_path);
 
         Vect__get_element_path(file_path, Map, GV_CIDX_ELEMENT);
         unlink(file_path); 
