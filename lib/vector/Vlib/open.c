@@ -553,7 +553,6 @@ int Vect__open_old(struct Map_info *Map, const char *name, const char *mapset,
     /* delete support files if native format was opened for update (not
      * head_only) */
     if (update && !head_only) {
-       
         char file_path[GPATH_MAX];
         Vect__get_element_path(file_path, Map, GV_TOPO_ELEMENT);
         unlink(file_path); \
