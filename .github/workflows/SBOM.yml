@@ -1,4 +1,4 @@
-            - name: Anchore SBOM Action
+- name: Anchore SBOM Action
   # You may pin to the exact commit or the version.
   # uses: anchore/sbom-action@ab5d7b5f48981941c4c5d6bf33aeb98fe3bae38c
   uses: anchore/sbom-action@v0.15.10
